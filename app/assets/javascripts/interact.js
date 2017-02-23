@@ -14,7 +14,8 @@ function addClass(box) {
 
 function readText() {
   var boxWithText = document.getElementById("textbox");
-  alert(boxWithText.innerHTML);
+  var alertMessage = boxWithText.innerHTML
+  alert(alertMessage);
 }
 
 // Other useful functions:
